@@ -38,5 +38,5 @@ public class NameFormatterTest {
     public void formatOtherCases() {
         String actual = NameFormatter.format("Mel Johnson");
         Assertions.assertEquals("Johnson, Mel",actual.trim());
-    }
+    };
 }
